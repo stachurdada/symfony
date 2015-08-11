@@ -1,0 +1,25 @@
+acme_store_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: AcmeStoreBundle:Default:index }
+create:
+    path:     /create
+    defaults: { _controller: AcmeStoreBundle:Default:create }
+show:
+    path:     /show/{id}
+    defaults: { _controller: AcmeStoreBundle:Default:show }
+update:
+    path:     /update/{id}
+    defaults: { _controller: AcmeStoreBundle:Default:update }
+get_products_by_price:
+    path:     /get_products_by_price/{price}
+    defaults: { _controller: AcmeStoreBundle:Default:getProductsByPrice }
+create_product:
+    path:     /create_product
+    defaults: { _controller: AcmeStoreBundle:Default:createProduct }
+show_products_by_category:
+    path:     /products/category/{id}
+    defaults: { _controller: AcmeStoreBundle:Default:showProductsByCategory }
+get_product_with_category_joined:
+    path:     /get_products_with_category/{id}
+    defaults: { _controller: AcmeStoreBundle:Default:getProductWithCategoryJoined }
+

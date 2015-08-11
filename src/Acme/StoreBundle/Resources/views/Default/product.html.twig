@@ -1,0 +1,20 @@
+{% dump(product.category) %}
+
+<ul>
+    <li>{{ product.id }}</li>
+    <li>{{ product.name }}</li>
+    <li>{{ product.price }}</li>
+    <li>{{ product.description }}</li>
+    <li>{{ product.category.name }}</li>
+</ul>
+
+Kategoria produktu to : {{ category }}
+<br/>
+
+<ul>
+    {#{% if products %}#}
+        {#{% for product in products %}#}
+            {#<li>{{ product.name }}</li>#}
+        {#{% endfor %}#}
+    {#{% endif %}#}
+</ul>

@@ -1,0 +1,6 @@
+acme_blog_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: AcmeBlogBundle:Default:index }
+author_validation:
+    path:     /author
+    defaults: { _controller: AcmeBlogBundle:Default:index }

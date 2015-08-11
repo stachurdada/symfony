@@ -1,0 +1,6 @@
+hello:
+    path:     /hello/{first_name}/{last_name}
+    defaults: { _controller: AcmeHelloBundle:Hello:index, color: green }
+redirect:
+    path:     /redirects/{name}
+    defaults: { _controller: AcmeHelloBundle:Hello:redirect, color: green }
