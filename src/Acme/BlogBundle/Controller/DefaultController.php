@@ -30,7 +30,7 @@ class DefaultController extends Controller
     public function updateAction(Request $request)
     {
 
-
+    //
 
     }
 
